@@ -4,16 +4,15 @@ This repository hosts experimental code which uses Quantum and Simulated anneali
 
 The initial drive behind this work was to prove that Quantum Annealing could solve certain hard problems airlines of various sizes are confronted with on a daily basis and for which the powerful classical computing solvers they use continue to struggle to find optimum results within operational deadlines.
 
-## Discovering Quantum Annealing
+# Discovering Quantum Annealing
 
-
-# Why use a Quantum Annealer for optimization?
+## Why use a Quantum Annealer for optimization?
 
 Quantum Annealing allows finding solutions to large combination problems that are hard to solve with classical computing and offers opportunities for breakthoughs in both speed and solution quality. Furthermore, to code solvers using such a Quantum computer does not require knowledge of physics (although it helps understand why it works). 
 
 Where there are multiple "choices" to be made with consequences on cost/time as these choices interact with each other ... there is an opportunity to use the QA to find the best fit solutions where Classical computing can fail.
 
-# What is the difference between Classical and Quantum Annealing solvers?
+## What is the difference between Classical and Quantum Annealing solvers?
 
 Here is a simplistic analogy: 
 
