@@ -2,7 +2,7 @@
 
 This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems.
 
-The initial drive behind this work was to prove that Quantum Annealing can solve certain hard problems airlines of various sizes are confronted with on a daily basis and for which the powerful classical computing solvers they use continue to struggle to find optimum results within operational deadlines.
+The initial drive behind this work was to prove that Quantum Annealing could solve certain hard problems airlines of various sizes are confronted with on a daily basis and for which the powerful classical computing solvers they use continue to struggle to find optimum results within operational deadlines.
 
 ## Discovering Quantum Annealing
 
