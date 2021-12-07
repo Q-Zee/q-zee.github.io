@@ -1,8 +1,14 @@
 # Welcome to Q-Zee
 
-This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems.
+This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems. 
 
-The initial drive behind this work was to prove that Quantum Annealing could solve certain hard problems airlines of various sizes are confronted with on a daily basis and for which the powerful classical computing solvers they use continue to struggle to find optimum results within operational deadlines.
+The initial drive behind this work was for myself to prove that Quantum Annealing could be used to solve certain hard problems that airlines of various sizes are confronted with on a daily basis. The powerful classical computing solvers many airlines utilize continue to struggle to find optimum results within operational deadlines.
+
+Having personally written and deployed classical solvers for some of these problems, the constant battle to work around the inpractibility of brute force solvers and "right sizing" heuristic algorithms to obtain "usable" results for np-hard problems made me wish for a "chip" that would handle the combinatorics and solution landscape exploration. 
+
+Discovering the existance of the DWave Quantum Annealing technology in 2018, it appeared as a wish come true and I engaged in learning about Quantum computing in general but more specifically how to use the DWave Quantum Computer to attempt solving the Airline Crew Trip use case. A QUBO prototype for a minimalistic real-world use case (Quzzi) can be found here.
+
+In the process of learning how to use the tool kit that drives the Quantum solvers, I practiced with a few toy problems, some of which are also included.
 
 # Discovering Quantum Annealing
 
