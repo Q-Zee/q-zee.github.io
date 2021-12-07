@@ -6,9 +6,9 @@ The initial drive behind this work was for myself to prove that Quantum Annealin
 
 Having personally written and deployed classical solvers for some of these problems, the constant battle to work around the inpractibility of brute force solvers and "right sizing" heuristic algorithms to obtain "usable" results for np-hard problems made me wish for a "chip" that would handle the combinatorics and solution landscape exploration. 
 
-Discovering the existance of the DWave Quantum Annealing technology in 2018, it appeared as a wish come true and I engaged in learning about and experimenting with Quantum computing in general, but more specifically how to use the DWave Quantum Computer to attempt solving the Airline Crew Trip use case. A Quadratic Unconstrained Binary Optimization (QUBO) prototype for a minimalistic real-world use case can be found [here](https://github.com/Q-Zee/DWave/tree/main/Quzzi).
+Discovering the existance of the DWave Quantum Annealing technology in 2018, it appeared as a wish come true and I engaged in learning about and experimenting with Quantum computing in general, but more specifically how to use the DWave Quantum Computer to attempt solving the Airline Crew Trip use case. A Quadratic Unconstrained Binary Optimization (QUBO) prototype for a minimalistic real-world use-case is proposed [here](https://github.com/Q-Zee/DWave/tree/main/Quzzi).
 
-In the process of learning how to use the tool kit that drives the Quantum solvers, I practiced with a few toy problems, some of which are also included.
+In the process of learning how to use the tool kit that drives the Quantum solvers, I practiced with a few toy problems, some of which are also included. All models are located [here](https://github.com/Q-Zee/DWave).
 
 # Discovering Quantum Annealing
 
