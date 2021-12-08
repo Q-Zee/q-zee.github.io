@@ -1,9 +1,12 @@
 # Welcome to Q-Zee
 
-This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems. 
+This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems.
 
 ## Catalyst 
 The initial drive behind this work was for myself to prove that Quantum Annealing could be used to solve certain hard problems that airlines of various sizes are confronted with on a daily basis. The powerful classical computing solvers many airlines utilize continue to struggle to find optimum results within operational deadlines.
+
+[:heart: Sponsor](https://github.com/sponsors/Q-Zee)
+
 
 ## Classical computing challenges
 Having personally written and deployed classical solvers for some of these problems, the constant battle to work around the inpractibility of brute force solvers and "right sizing" heuristic algorithms to obtain "usable" results for np-hard problems made me wish for a "chip" that would handle the combinatorics and solution landscape exploration. 
