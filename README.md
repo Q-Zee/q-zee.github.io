@@ -2,7 +2,7 @@
 
 This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems.
 
-## Catalyst 
+## Catalyst ✈
 The initial drive behind this work was for myself to prove that Quantum Annealing could be used to solve certain hard problems that airlines of various sizes are confronted with on a daily basis. The powerful classical computing solvers many airlines utilize continue to struggle to find optimum results within operational deadlines.
 
 [![Github Sponsorship](img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
