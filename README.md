@@ -37,7 +37,7 @@ Here is a simplistic analogy:
 
 ## What to expect from the Q-Zee site
 
-Q-Zee aims at making Quantum Annealing solvers more accessible to anyone by sharing its own experience. The hope is that if you know how to use a spreadsheet for solving your day-to-day optimization "puzzles", you should be able to harness Quantum Annealing.
+Q-Zee aims at making Quantum Annealing solvers more accessible and as simple as possible to anyone by sharing its own experience, through code, examples and training on methodologies.
 
 Q-Zee will be listening to anyone interested in this work and more specifically what they wish to learn.
 
