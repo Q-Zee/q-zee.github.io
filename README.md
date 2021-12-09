@@ -2,6 +2,12 @@
 
 This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems.
 
+## Quick Start
+
+>[Jump to the code repository](https://github.com/Q-Zee/DWave)
+
+>[Airline Crew Trip Use-Case](https://github.com/Q-Zee/DWave/tree/main/Quzzi)
+
 ## Catalyst ✈
 The initial drive behind this work was for myself to prove that Quantum Annealing could be used to solve certain hard problems that airlines of various sizes are confronted with on a daily basis. The powerful classical computing solvers many airlines utilize continue to struggle to find optimum results within operational deadlines.
 
