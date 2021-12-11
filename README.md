@@ -35,15 +35,15 @@ Here is a simplistic analogy:
 
 - 💥 The Quantum Annealer **"knows"** how to solve the problem by using a **quality rating function** one gives it (code) to compare its solutions. The paths to the labyrinth _"manifest"_ themselves and the ones leading to exits rank at the top of the list of possible solutions.
 
-## What to expect from the Q-Zee site
+## What to expect from the Quzzi site
 
-Q-Zee aims at making Quantum Annealing solvers more accessible and as simple as possible to anyone by sharing its own experience, through code, examples and training on methodologies.
+Quzzi aims at making Quantum Annealing solvers more accessible and as simple as possible to anyone by sharing its own experience, through code, examples and training on methodologies.
 
-Q-Zee will be listening to anyone interested in this work and more specifically what they wish to learn.
+Quzzi will be listening to anyone interested in this work and more specifically what they wish to learn.
 
 [![Github Sponsorship](img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
 
-Sponsor Q-Zee today and get involved to get it to work for you!
+Sponsor Quzzi today and get involved to get it to work for you!
 
 <!---
 Q-Zee/Q-Zee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
