@@ -1,4 +1,4 @@
-# Welcome to Q-Zee
+# Welcome to Quzzi
 
 This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems.
 
