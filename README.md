@@ -1,35 +1,41 @@
 # Welcome to Quzzi
 
-This repository hosts experimental code which uses Quantum and Simulated annealing to solve optimization problems.
+This repository hosts experimental code which uses [Quantum Annealing (QA)](https://en.wikipedia.org/wiki/Quantum_annealing) to solve [np-hard optimization problems](https://en.wikipedia.org/wiki/NP-hardness). The author is using the [DWave Quantum Hybrid Solver](https://cloud.dwavesys.com/leap/signup/) as well as [Simulated Annealing (SA)](https://en.wikipedia.org/wiki/Simulated_annealing) for this purpose.
+
+The main interest is with solving **real-world** use cases within the **airline industry**. Code for the original functional prototype for solving Crew Trip problems is included in the code repository. 
+
+Also included in the code repository are various side problems that can help others understand how to use this new technology. Solvers are implemented using Quadratic Unconstrained Binary Optimization ([QUBO](https://support.dwavesys.com/hc/en-us/articles/360003684474-What-is-a-QUBO-)) using the DWave [BQM](https://support.dwavesys.com/hc/en-us/articles/360009944734-What-is-a-Binary-Quadratic-Model-BQM-) and [CQM](https://support.dwavesys.com/hc/en-us/articles/4410049190807-New-Hybrid-Solver-Constrained-Quadratic-Model).
+
+The code is provided as an Appache 2 Open Source license.
 
 ## Quick Start
 
->[Airline Crew Trip Use-Case](https://q-zee.github.io/DWave/Quzzi/)
+>[Airline Use-Case: Quzzi library](https://q-zee.github.io/DWave/Quzzi/)
 
->[Jump to the code repository](https://github.com/Q-Zee/DWave)
+>[Strategy Problem: Solving Goat/Wolf/Cabbage riddle](https://q-zee.github.io/DWave/GCW)
+
+>[Viable Configurations: Solving 8 Queens problem with BQM and CQM](https://q-zee.github.io/DWave/8Queens)
 
 [![Github Sponsorship](img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
 
 ## Catalyst ✈
-The initial drive behind this work was for myself to prove that Quantum Annealing could be used to solve certain hard problems that airlines of various sizes are confronted with on a daily basis. The powerful classical computing solvers many airlines utilize continue to struggle to find optimum results within operational deadlines.
+The author's initial drive behind this work was to prove that Quantum Annealing could be used to solve certain hard problems that airlines of various sizes are confronted with on a daily basis. Despite using powerful classical computing solvers used by the larger airlines, these systems continue to struggle to find optimum results within operational deadlines, especially in a world where strategies are in constant increasing flux.
 
 ## Classical computing challenges
-Having personally written and deployed classical solvers for some of these problems, the constant battle to work around the inpractibility of brute force solvers and "right sizing" heuristic algorithms to obtain "usable" results for np-hard problems made me wish for a "chip" that would handle the combinatorics and solution landscape exploration. 
+Having personally written and deployed classical solvers for some of these problems, the author's experience with the constant battle to work around the inpractibility of brute force solvers and "right sizing" heuristic algorithms to obtain viable operational results for np-hard problems made him wish for a "chip" that would handle the combinatorics and solution landscape exploration. 
 
 ## Experimental code
-Discovering the existance of the DWave Quantum Annealing technology in 2018, it appeared as a wish come true and I engaged in learning about and experimenting with Quantum computing in general, but more specifically how to use the DWave Quantum Computer to attempt solving the Airline Crew Trip use case. A Quadratic Unconstrained Binary Optimization (QUBO) prototype for a minimalistic real-world use-case is proposed [here](https://q-zee.github.io/DWave/Quzzi/).
-
-In the process of learning how to use the tool kit that drives the Quantum solvers, I practiced with a few toy problems, some of which are also included. All models are located [here](https://github.com/Q-Zee/DWave).
+Discovering the existance of the DWave Quantum Annealing technology in 2018, it appeared as a wish come true and he engaged in learning about and experimenting with Quantum computing in general, but more specifically how to use the DWave Quantum Computer to attempt solving the Airline Crew Trip use case. 
 
 ## Why consider a Quantum Annealer for optimization?
 
 Quantum Annealing allows finding solutions to large combination problems that are hard to solve with classical computing and offers opportunities for breakthoughs in both speed and solution quality. Furthermore, to code solvers using such a Quantum computer does not require knowledge of physics (although it helps understand why it works). 
 
-Where there are multiple "choices" to be made with consequences on cost/time as these choices interact with each other ... there is an opportunity to use the QA to find the best fit solutions where Classical computing can fail.
+Problems where there are countless "choices" to be made with consequences on cost/time as these choices interact with each other to form even greater combinations, there is an opportunity to use QA to find the best fit solutions where Classical computing can fail rooted in problem magnitude and time to solution constraints.
 
 ## What is the difference between Classical and Quantum Annealing solvers?
 
-Here is a simplistic analogy: 
+Here is a simplistic analogy from the author's point of view: 
 
 - 🚶‍♀️ One **tells** a classical computer **"how"** to solve a problem by **telling it the steps** (code) needed to construct a solution. It is like walking through a labyrinth until the exit is found. You might get exhausted before the end and never find the exit.
 
@@ -39,7 +45,7 @@ Here is a simplistic analogy:
 
 Quzzi aims at making Quantum Annealing solvers more accessible and as simple as possible to anyone by sharing its own experience, through code, examples and training on methodologies.
 
-Quzzi will be listening to anyone interested in this work and more specifically what they wish to learn.
+Quzzi will be listening to anyone interested in this work and more specifically what they wish to learn from it.
 
 [![Github Sponsorship](img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
 
