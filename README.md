@@ -6,7 +6,7 @@ The main interest is with solving **real-world** use cases within the **airline 
 
 Also included in the code repository are various side problems that can help understand how to use this new technology. Solvers are implemented using Quadratic Unconstrained Binary Optimization ([QUBO](https://support.dwavesys.com/hc/en-us/articles/360003684474-What-is-a-QUBO-)) using the DWave [BQM](https://support.dwavesys.com/hc/en-us/articles/360009944734-What-is-a-Binary-Quadratic-Model-BQM-) and [CQM](https://support.dwavesys.com/hc/en-us/articles/4410049190807-New-Hybrid-Solver-Constrained-Quadratic-Model).
 
-The code is provided as an Appache 2 Open Source license.
+The code is provided as an Apache 2 Open Source license.
 
 ## Quick Start
 
