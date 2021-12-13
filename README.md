@@ -16,6 +16,9 @@ The code is provided as an Apache 2 Open Source license.
 
 >[Viable Configurations: Solving 8 Queens problem with BQM and CQM](https://q-zee.github.io/DWave/8Queens)
 
+
+>[Load all models in your DWave Leap Account](https://ide.dwavesys.io/#https://github.com/q-zee/DWave)
+
 [![Github Sponsorship](img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
 
 ## Catalyst ✈
