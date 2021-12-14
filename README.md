@@ -10,15 +10,23 @@ The code is provided as an Apache 2 Open Source license.
 
 ## Quick Start
 
->[Airline Use-Case: Quzzi library](https://q-zee.github.io/DWave/Quzzi/)
+### Overview
+
+>[Examples overview](https://q-zee.github.io/DWave/)
+
+### Jump to specific solvers
+
+>[Airline Crew Trips: Quzzi library](https://q-zee.github.io/DWave/Quzzi/)
 
 >[Strategy Problem: Solving Goat/Wolf/Cabbage riddle](https://q-zee.github.io/DWave/GCW)
 
 >[Viable Configurations: Solving 8 Queens problem with BQM and CQM](https://q-zee.github.io/DWave/8Queens)
 
+### Load code in Leap IDE
 
->[Load all models in your DWave Leap Account](https://ide.dwavesys.io/#https://github.com/q-zee/DWave)
+>[Load models in your D-Wave Leap Account](https://ide.dwavesys.io/#https://github.com/q-zee/DWave)
 
+### Sponsors!
 [![Github Sponsorship](img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
 
 ## Catalyst ✈
