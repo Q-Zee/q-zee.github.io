@@ -1,3 +1,4 @@
+![Github Sponsorship](img/Logo-Small.png)
 # Welcome to Quzzi
 
 This repository hosts experimental code which uses [Quantum Annealing (QA)](https://en.wikipedia.org/wiki/Quantum_annealing) to solve [np-hard optimization problems](https://en.wikipedia.org/wiki/NP-hardness). The author is using the [DWave Quantum Hybrid Solver](https://cloud.dwavesys.com/leap/signup/) as well as [Simulated Annealing (SA)](https://en.wikipedia.org/wiki/Simulated_annealing) for this purpose.
