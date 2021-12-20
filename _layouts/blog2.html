@@ -62,13 +62,23 @@
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-        <p><a href="https://q-zee.github.io/privacy">Privacy Policy</a></p>
-      </footer>
+
+      <!--   Placing a brackground image in the banner    -->
+      <div class="blog-cover {% if site.cover %} has-cover {% else %} no-cover {% endif %}" {% if site.cover %} style="background-image: url({{ site.cover | prepend: site.github.url | prepend: site.baseurl}}); background-size: cover; background-repeat: no-repeat;" {% endif %}>
+        <div class='cover_overlay'>
+          <div class="content">
+
+            <footer class="inner">
+              {% if site.github.is_project_page %}
+              <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+              {% endif %}
+              <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+              <p><a href="https://q-zee.github.io/privacy">Privacy Policy</a></p>
+            </footer>
+
+          </div>      
+        </div>      
+      </div>      
     </div>
   </body>
 </html>
