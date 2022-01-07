@@ -9,6 +9,10 @@ Also included in the code repository are various side problems that can help und
 
 The code is provided as an Apache 2 Open Source license.
 
+## Blog
+
+You can find the Quzzi blog [here](https://q-zee.github.io/blog).
+
 ## Quick Start
 
 ### Overview
