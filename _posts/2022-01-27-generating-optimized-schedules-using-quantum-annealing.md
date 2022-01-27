@@ -80,10 +80,8 @@ We estimate the number of crew sets excluding combination restrictions consideri
 
 Two "common sense" structural constraints are needed:
 
-```
-1 - Any given item can only be assigned to 1 crew set at a time (no double coverage)
-2 - All items must be assigned on any given day
-```
+1. Any given item can only be assigned to 1 crew set at a time (no double coverage)
+2. All items must be assigned on any given day
 
 Then comes the work rules described earlier with the addition of a special constraint to deal with multiple day trips (see the T4 task in the example which is followed by an "x". The constraint essentially says that the "x" must always follow where the "T4" item goes, they can't be apart from each other.
 
@@ -91,10 +89,8 @@ Then comes the work rules described earlier with the addition of a special const
 
 There are two parts in the objective:
 
-```
-1 - "Pump" as many tasks as possible onto the crew sets at the top of the list as opposed to the bottom ones. 
-2 - Penalize items that conflict with each other (overlap or breaks the rest rule between pairs).
-```
+1. "Pump" as many tasks as possible onto the crew sets at the top of the list as opposed to the bottom ones. 
+2. Penalize items that conflict with each other (overlap or breaks the rest rule between pairs).
 
 ### Python Code excerpt
 
