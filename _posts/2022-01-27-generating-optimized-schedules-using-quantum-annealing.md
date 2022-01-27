@@ -7,7 +7,9 @@ title: Generating optimized schedules using Quantum Annealing
 
 ## Demonstration
 
-I have published a video demonstrating the use of Quantum Annealing for generating an optimized schedule forecast to determine if an airline has enough staff to cover a flight schedule. You can find it [here](https://youtu.be/WsJiS56SQ74) with other videos on this [channel](https://www.youtube.com/channel/UCddYU5elbTFC5F6YZv-4Otw).
+I have published a video demonstrating the use of Quantum Annealing for generating an optimized schedule forecast to determine if an airline has enough staff to cover a flight schedule. 
+
+You can find it [here](https://youtu.be/WsJiS56SQ74) with other videos on this [channel](https://www.youtube.com/channel/UCddYU5elbTFC5F6YZv-4Otw).
 
 As for a previous project, I am using Excel with [xlwings](https://www.xlwings.org/) calling python code to setup the Quantum Annealing problem using the [DWave Quantum Computer](https://www.dwavesys.com/).
 
@@ -115,4 +117,9 @@ Legend:
 We use Excel and Python running on a Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz 1.80 GHz Window laptop, to prepare the problem for the Quantum Computer and calling the DWave CQM Hybrid Solver to solve it.
 
 You can find more details about DWave and running your own models [on DWave Leap](https://cloud.dwavesys.com/leap/login/?next=/leap/) and how to connect Excel to Python at [xlwings.org](https://www.xlwings.org/).
+
+## Sponsors
+
+For more examples and access to more code, please consider [sponsoring!](https://github.com/sponsors/Q-Zee)
+
 
