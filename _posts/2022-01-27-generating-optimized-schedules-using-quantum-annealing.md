@@ -18,7 +18,7 @@ Assigning airline crew members to the flights they operate is a multi-step proce
 Therefore, failure to produce results is not an option. 
 It often becomes a matter of compromise to accept the best (or least costly) solution.
 
-When an airline creates or changes a flight schedule to address to best address their market, it is not truly known how many crew members will be needed. 
+When an airline creates or changes a flight schedule to best address their market, it is not truly known how many crew members will be needed. 
 
 Why? Because it is not just a matter of calculating a ratio of hours of work vs crew member availability. The flights must be sequenced in a way that fits the flight duty regulations, safety buffers and assignments must also respect the work rules in a given period.
 
