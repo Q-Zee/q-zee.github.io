@@ -105,10 +105,11 @@ Here is a sample for the "common sense" constraints mentioned previously
       self.cqm.add_constraint( sum( self.board[s][i][d] for s in range(self.NS) for i in range(len(items[d])) ) == len(items[d]), label=f"all_assigned_d_{d}" )
 
 Legend:
+```
 	s is a crew set
 	d is a relative day in the period
 	i is a task item
-
+```
 ## Excel, desktop and solver
 
 We use Excel and Python running on a Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz 1.80 GHz Window laptop, to prepare the problem for the Quantum Computer and calling the DWave CQM Hybrid Solver to solve it.
