@@ -40,7 +40,7 @@ The example is based on a real life case of a startup airline with 2 A-320 aircr
 
 The question posed is: How many crew sets (Captain, First officer and Cabin attendants) are needed to fly a schedule to determine if the current employee count is sufficient or if changes need to be planned.
 
-In the example, the trips are given from the crew trip solver (using the code published here). The focus is on creating feasible schedules allocating all the trips respecting a few work rules.
+In the example, the trips are given from the crew trip solver (using the code published [here](https://q-zee.github.io/DWave/Quzzi/)). The focus is on creating feasible schedules allocating all the trips respecting a few work rules.
 
 There are 3 trips per day with variying weekly frequency (operating day of week). We also have 2 standby periods (one AM and one PM) for a total of 5 tasks per day for part 1 of the demonstration and 8 tasks per day in part 2.
 
