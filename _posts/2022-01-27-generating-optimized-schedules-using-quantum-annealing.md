@@ -114,5 +114,5 @@ Legend:
 
 We use Excel and Python running on a Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz 1.80 GHz Window laptop, to prepare the problem for the Quantum Computer and calling the DWave CQM Hybrid Solver to solve it.
 
-You can find more details about DWave and running your own models [on DWave Leap](https://cloud.dwavesys.com/leap/login/?next=/leap/) and how to connect Excel to Python [at xlwings.org](https://www.xlwings.org/).
+You can find more details about DWave and running your own models [on DWave Leap](https://cloud.dwavesys.com/leap/login/?next=/leap/) and how to connect Excel to Python at [xlwings.org](https://www.xlwings.org/).
 
