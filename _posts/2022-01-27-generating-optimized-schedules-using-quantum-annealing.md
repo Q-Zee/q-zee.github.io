@@ -36,7 +36,7 @@ These challenges are perfectly suited for solvers that deal with large combinati
 
 ## The example
 
-The example is based on a real life case of a startup airline with 2 A-320 aircraft. This is a small number of aircraft but even so can offerits own challenges.
+The example is based on a real life case of a startup airline with 2 A-320 aircraft. This is a small number of aircraft but even so can offer its own challenges.
 
 The question posed is: How many crew sets (Captain, First officer and Cabin attendants) are needed to fly a schedule to determine if the current employee count is sufficient or if changes need to be planned.
 
