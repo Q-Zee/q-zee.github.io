@@ -1,0 +1,11 @@
+<!-- Adds MathJax so QUBO / objective-function equations render as real math
+     instead of being described only in prose. Zero cost, loaded from a CDN. -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>

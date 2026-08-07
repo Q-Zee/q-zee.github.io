@@ -1,6 +1,32 @@
-theme: jekyll-theme-slate
-remote_theme: pages-themes/slate@v0.2.0
 title: Quzzi
-description: Quantum Annealing Optimization Coding
+description: Quantum Annealing Optimization Coding — prototypes and code for real-world aviation problems
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# just-the-docs settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+nav_external_links:
+  - title: View code on GitHub
+    url: https://github.com/Q-Zee/DWave
+    hide_icon: false
+
+# Aux nav shown top-right
+aux_links:
+  "Code repo":
+    - https://github.com/Q-Zee/DWave
+  "Sponsor":
+    - https://github.com/sponsors/Q-Zee
+
+footer_content: "Quzzi — Quantum Annealing Optimization Coding. Published with GitHub Pages. <a href=\"/privacy/\">Privacy Policy</a>."
+
+# Keep existing analytics
 google_analytics: G-DEXYV5Q2EB
-cover: /assets/images/header-bg.jpg
+
+# Optional custom domain later (leave blank = keeps free github.io URL)
+url: https://q-zee.github.io
