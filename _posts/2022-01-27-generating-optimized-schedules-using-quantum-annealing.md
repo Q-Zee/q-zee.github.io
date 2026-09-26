@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Generating optimized schedules using Quantum Annealing
+seq: 3
+redirect_from:
+  - /2022/01/27/generating-optimized-schedules-using-quantum-annealing.html
 ---
 
 # Generating optimized schedules using Quantum Annealing

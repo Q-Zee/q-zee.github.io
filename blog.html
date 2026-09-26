@@ -7,7 +7,7 @@ title: Blog
 <ul>
   {% for post in site.posts %}
     <li>
-      <h3><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></h3>
+      <h3><a href="{{ post.url }}">Update #{{ post.seq }} &mdash; {{ post.title }}</a></h3>
     </li>
   {% endfor %}
 </ul>

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Access Quantum Computing from Excel
+seq: 2
+redirect_from:
+  - /2022/01/07/access-quantum-annealing-in-excel.html
 ---
 
 # Accessing Quantum Computing from Excel

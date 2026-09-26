@@ -4,3 +4,6 @@ title: Quzzi
 description: Quantum Annealing Optimization Coding
 google_analytics: G-DEXYV5Q2EB
 cover: /assets/images/header-bg.jpg
+plugins:
+  - jekyll-redirect-from
+permalink: /blog/:title/
