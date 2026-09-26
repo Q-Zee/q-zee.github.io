@@ -5,19 +5,6 @@ permalink: /agifors2026/
 robots: noindex, nofollow
 ---
 
-<!-- Staged font-size trial for this page only. Not touching the
-     shared theme yet - if this reads better, the plan is to promote
-     these same values into the site-wide stylesheet. -->
-<style>
-.agifors-preview { font-size: 22px; line-height: 1.6; }
-.agifors-preview h1 { font-size: 46px; }
-.agifors-preview h3 { font-size: 26px; }
-.agifors-preview h2 { font-size: 34px; }
-.agifors-preview h4 { font-size: 22px; }
-.agifors-preview p, .agifors-preview li { font-size: 22px; }
-</style>
-<div class="agifors-preview" markdown="1">
-
 <p align="center"><img src="/assets/images/agifors2026-banner.jpg" alt="" style="max-width: 900px; width: 100%; height: auto; border-radius: 8px; margin: 0 auto 1.5rem; display: block;"></p>
 
 # Airline crew planning meets quantum computing. No, really.
@@ -67,5 +54,3 @@ Quzzi is independent, self-funded research. If this session showed you something
 ## Questions after the talk?
 
 Reach out to Mario Guzzi, or to the AGIFORS Crew Management SG co-chairs: Marcel Sol (marcel.sol@agifors.org) or Philipp Reske (crew@agifors.org).
-
-</div>

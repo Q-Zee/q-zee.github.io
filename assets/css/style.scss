@@ -1,7 +1,24 @@
 ---
 ---
+---
 @import "{{ site.theme }}";
 
 .inner {
   max-width: 75%;
+}
+
+// Larger, more readable type site-wide (promoted from an AGIFORS-page-only
+// trial once it read well there).
+body {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+h1 { font-size: 46px; }
+h2 { font-size: 34px; }
+h3 { font-size: 26px; }
+h4 { font-size: 22px; }
+
+p, li {
+  font-size: 22px;
 }
