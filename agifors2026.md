@@ -18,7 +18,7 @@ This page is the reference material for the AGIFORS Crew Management SG 2026 sess
 
 This session presents **Quzzi** — an independent, open-source research project applying Quantum Annealing to airline optimization problems — specifically its Crew Trip solver, with Crew Assignment work also discussed. Quzzi is broader than just this work; it also includes smaller teaching examples that make the underlying approach easier to follow (see below).
 
-A proof-of-concept version of the Quzzi Trip solver has separately been implemented within the [VYouPointAero](https://www.vyoupoint.com) app, through a collaboration between the two.
+A proof-of-concept version of the Quzzi Trip solver has separately been implemented within the [VYouPointAero](https://www.vyoupoint.com) app, through a collaboration between the two. VYouPointAero itself took shape through the [Creative Destruction Lab](https://creativedestructionlab.com/companies/vyoupoint-aero/) (CDL) accelerator program.
 
 ## What you'll see in this session
 
