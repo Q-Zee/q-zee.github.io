@@ -5,6 +5,19 @@ permalink: /agifors2026/
 robots: noindex, nofollow
 ---
 
+<!-- Staged font-size trial for this page only. Not touching the
+     shared theme yet - if this reads better, the plan is to promote
+     these same values into the site-wide stylesheet. -->
+<style>
+.agifors-preview { font-size: 19px; line-height: 1.6; }
+.agifors-preview h1 { font-size: 46px; }
+.agifors-preview h3 { font-size: 26px; }
+.agifors-preview h2 { font-size: 34px; }
+.agifors-preview h4 { font-size: 22px; }
+.agifors-preview p, .agifors-preview li { font-size: 19px; }
+</style>
+<div class="agifors-preview" markdown="1">
+
 # Airline crew planning meets quantum computing. No, really.
 ### AGIFORS Crew Management Study Group Meeting 2026
 
@@ -14,9 +27,9 @@ This page is the reference material for the AGIFORS Crew Management SG 2026 sess
 
 ## About this work
 
-This session presents **Quzzi** — Mario's independent, open-source research into applying Quantum Annealing to airline optimization problems — specifically its Crew Trip and Assignment solvers. Quzzi is broader than just this work; it also includes smaller teaching examples that make the underlying approach easier to follow (see below).
+This session presents **Quzzi** — Mario's independent, open-source research into applying Quantum Annealing to airline optimization problems — specifically its Crew Trip solver, with Crew Assignment work also discussed. Quzzi is broader than just this work; it also includes smaller teaching examples that make the underlying approach easier to follow (see below).
 
-A version of the Quzzi Trip solver has separately been implemented within the [VYouPointAero](https://www.vyoupoint.com) app, through a collaboration between the two. That collaboration is mentioned here for context — the code, the research, and this presentation are Quzzi's.
+A version of the Quzzi Trip solver has separately been implemented within the [VYouPointAero](https://www.vyoupoint.com) app, through a collaboration between the two.
 
 ## What you'll see in this session
 
@@ -30,6 +43,8 @@ Quantum computing in airline crew planning has been a "someday" topic for years.
 - [All Quzzi models](/DWave/) — the Trip solver above, plus two smaller teaching examples (Wolf-Goat-Cabbage, 8 Queens) that illustrate the same BQM/CQM approach on problems anyone can follow without an airline background
 - [Full code repository](https://github.com/Q-Zee/DWave) (Apache 2.0)
 - [Run the code yourself in D-Wave's Leap IDE](https://ide.dwavesys.io/#https://github.com/q-zee/DWave)
+
+Crew Assignment is discussed in the session but isn't published as code here yet — only the Trip solver above is currently available.
 
 ## Why quantum annealing, briefly
 
@@ -50,3 +65,5 @@ Quzzi is independent, self-funded research. If this session showed you something
 ## Questions after the talk?
 
 Reach out to Mario Guzzi, or to the AGIFORS Crew Management SG co-chairs: Marcel Sol (marcel.sol@agifors.org) or Philipp Reske (crew@agifors.org).
+
+</div>
