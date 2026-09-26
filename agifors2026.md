@@ -9,12 +9,12 @@ robots: noindex, nofollow
      shared theme yet - if this reads better, the plan is to promote
      these same values into the site-wide stylesheet. -->
 <style>
-.agifors-preview { font-size: 19px; line-height: 1.6; }
+.agifors-preview { font-size: 22px; line-height: 1.6; }
 .agifors-preview h1 { font-size: 46px; }
 .agifors-preview h3 { font-size: 26px; }
 .agifors-preview h2 { font-size: 34px; }
 .agifors-preview h4 { font-size: 22px; }
-.agifors-preview p, .agifors-preview li { font-size: 19px; }
+.agifors-preview p, .agifors-preview li { font-size: 22px; }
 </style>
 <div class="agifors-preview" markdown="1">
 
@@ -29,9 +29,9 @@ This page is the reference material for the AGIFORS Crew Management SG 2026 sess
 
 ## About this work
 
-This session presents **Quzzi** — Mario's independent, open-source research into applying Quantum Annealing to airline optimization problems — specifically its Crew Trip solver, with Crew Assignment work also discussed. Quzzi is broader than just this work; it also includes smaller teaching examples that make the underlying approach easier to follow (see below).
+This session presents **Quzzi** — an independent, open-source research project applying Quantum Annealing to airline optimization problems — specifically its Crew Trip solver, with Crew Assignment work also discussed. Quzzi is broader than just this work; it also includes smaller teaching examples that make the underlying approach easier to follow (see below).
 
-A version of the Quzzi Trip solver has separately been implemented within the [VYouPointAero](https://www.vyoupoint.com) app, through a collaboration between the two.
+A proof-of-concept version of the Quzzi Trip solver has separately been implemented within the [VYouPointAero](https://www.vyoupoint.com) app, through a collaboration between the two.
 
 ## What you'll see in this session
 
@@ -46,8 +46,6 @@ Quantum computing in airline crew planning has been a "someday" topic for years.
 - [Full code repository](https://github.com/Q-Zee/DWave) (Apache 2.0)
 - [Run the code yourself in D-Wave's Leap IDE](https://ide.dwavesys.io/#https://github.com/q-zee/DWave)
 
-Crew Assignment is discussed in the session but isn't published as code here yet — only the Trip solver above is currently available.
-
 ## Why quantum annealing, briefly
 
 Classical solvers for crew planning are heuristic and time-boxed — they walk toward a solution step by step and can run out of time before finding a good one. A quantum annealer is instead given a way to *score* a candidate solution, and lets the physical system settle toward low-cost solutions on its own — using quantum effects to explore the landscape differently than step-by-step search, without being told the exact steps to follow. See the [homepage](/) for the fuller explanation, no physics background required.
@@ -58,7 +56,9 @@ Classical solvers for crew planning are heuristic and time-boxed — they walk t
 - [A QUBO Formulation for Flight-Trip Sequencing (PDF)](/papers/QUBO-Trip-Sequencing-Formulation.pdf) — the mathematical formulation behind the Trip solver, written for a technical/math audience. Companion to the [Python implementation](https://github.com/Q-Zee/DWave).
 
 **Videos**
-- *(to be added)*
+- [8 Queens (N-Queens) on a quantum annealer](https://www.youtube.com/watch?v=xMIqiaroMrk) — walkthrough of the teaching-example solver
+- [Crew Assignment solver](https://www.youtube.com/watch?v=WsJiS56SQ74)
+- *(more to be added)*
 
 ## Support this work
 
