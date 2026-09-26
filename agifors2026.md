@@ -18,7 +18,7 @@ robots: noindex, nofollow
 </style>
 <div class="agifors-preview" markdown="1">
 
-<p align="center"><img src="/assets/images/agifors2026-banner.jpg" alt="" style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; margin: 0 auto 1.5rem; display: block;"></p>
+<p align="center"><img src="/assets/images/agifors2026-banner.jpg" alt="" style="max-width: 900px; width: 100%; height: auto; border-radius: 8px; margin: 0 auto 1.5rem; display: block;"></p>
 
 # Airline crew planning meets quantum computing. No, really.
 ### AGIFORS Crew Management Study Group Meeting 2026
