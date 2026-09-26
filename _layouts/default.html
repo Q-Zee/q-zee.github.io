@@ -13,6 +13,9 @@
      crossorigin="anonymous"></script>
     
     {% seo %}
+    {% if page.robots %}
+    <meta name="robots" content="{{ page.robots }}">
+    {% endif %}
     {% include head-custom.html %}
     
     {% if site.google_analytics and jekyll.environment == 'production' %}
